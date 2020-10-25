@@ -1,146 +1,128 @@
 {
   "UserDetailField":[
     {
-      "Lawyer":[ 
+      "Lawyer":[
         {
-          "surname": {
-            "type": "string",
-            "title": "Surname"
-          },
-          "cnSurname": {
-            "type": "string",
-            "title": "Surname (Chinese)"
-          },
-          "firstName": {
-            "type": "string",
-            "title": "First Name"
-          },
-          "cnFirstName": {
-            "type": "string",
-            "title": "First Name (Chinese)"
-          },
-          "gender": {
-             "type": "enum",
-             "title": "Gender",
-             "items": [
-                "Female",
-                "Male",
-                "Other"
-             ]
-          },
-          "residence": {
-             "type": "array",
-             "title": "I reside in",
-             "maxItems": 1,
-             "items": [
-                { "title": "Hong Kong香港" },
-                { "title": "Mainland China中國內地" },
-                { "title":  "Other其它地方", "hasInput": true }
-
-             ]
-          },
-          "address": {
-             "type": "address",
-             "title": "Correspondence address"
-          },
-          "weChatId": {
-            "type": "string",
-            "title": "WeChat ID"
-          }
+          "MariaLawyer":[ 
+            {
+              "surname": "Maria",
+              "cnSurname": "maria",
+              "firstName": "Maria",
+              "cnFirstName": "maria",
+              "gender": "Other",
+              "residence": "Hong Kong香港" ,
+              "address": {
+                "region":"K",
+                "district":"DEF",
+                "street":"1",
+                "building":"A",
+                "roomFloor":"1"
+              },
+              "weChatId": "hchgtlsr"
+            }
+          ],
+          "hahaLawyer":[ 
+            {
+              "surname": "Testing",
+              "cnSurname": "testing",
+              "firstName": "Hahaha",
+              "cnFirstName": "hahaha",
+              "gender": "Other",
+              "residence": "Hong Kong香港" ,
+              "address": {
+                "region":"H",
+                "district":"ABC",
+                "street":"2",
+                "building":"B",
+                "roomFloor":"2"
+              },
+              "weChatId": "yakleui"
+            }
+          ]
         }
       ],
-      "IDA":[
-        {
-         "firstName": {
-            "type": "string",
-            "title": "First Name"
-          },
-          "lastName": {
-            "type": "string",
-            "title": "Last Name"
-          },
-          "company": {
-            "type": "string",
-            "title": "Company"
-          },
-          "position": {
-            "type": "string",
-            "title": "Position"
-          },
-          "phone": {
-            "type": "string",
-            "title": "Phone Number"
-          },
-          "fax": {
-            "type": "string",
-            "title": "Fax"
-          },
-          "address": {
-             "type": "address",
-             "title": "Correspondence address"
+      "IDA" :[
+          {
+            "mariaIDA":[
+              {
+              "firstName": "maria2",
+                "lastName": "Maria2",
+                "company": "ygn",
+                "position": "another lung green",
+                "phone": "87654321",
+                "fax": "98765432",
+                "address": {
+                  "region":"K",
+                  "district":"WVU",
+                  "street":"8",
+                  "building":"Y",
+                  "roomFloor":"8"
+                }
+              }
+            ],
+            "hahahaIDA":[
+              {
+              "firstName": "testing2",
+                "lastName": "hahaha2",
+                "company": "tnd",
+                "position": "lung green",
+                "phone": "12345678",
+                "fax": "23456789",
+                "address": {
+                  "region":"H",
+                  "district":"ZYX",
+                  "street":"9",
+                  "building":"Z",
+                  "roomFloor":"9"
+                }
+              }
+            ]
           }
-        }
-      ]
-    }
-  ],
-  "QuestionnaireField":[
-    {
-      "Lawyer":[ 
-        {
-           "lawyerType": {
-           "type": "array",
-           "title": "I am a",
-           "maxItems": 1,
-           "items": [
-              { "title": "Hong Kong Solicitor 香港律師" },
-              { "title": "Hong Kong Barrister 香港大律師" },
-              { "title": "Foreign lawyer海外律師" },
-              { "title": "in-house counsel 內部法律顧問" },
-              { "title": "Trainee solicitor見習律師" },
-              { "title": "Pupil 實習大律師" },
-              { "title": "Paralegal 法律助理" },
-              { "title": "Law student 法律學生" },
-              { "title": "Other其他", "hasInput": true }
-           ]
-        },
-        "admissionJurisdiction": {
-          "type": "string",
-          "title": "Jurisdiction of admission (for foreign lawyer)"
-        },
-        "admissionYear": {
-          "type": "string",
-          "title": "Year of admission"
-        },
-        "company": {
-          "type": "string",
-          "title": "Name of firm/chambers/company"
-        },
-        "university": {
-          "type": "string",
-          "title": "Name of university (for law student)"
-        }
+        ]
       }
     ],
-    "IDA":[
+    "QuestionnaireField":[
       {
-        "currentBrands": {
-          "type": "string",
-          "title": "Current Brands"
-        },
-        "outlets": {
-          "type": "string",
-          "title": "Number of Outlets"
-        },
-        "category": {
-          "type": "string",
-          "title": "Category"
-        },
-        "image": {
-          "type": "file",
-          "title": "Restaurant Logo’s? Profile Pic?"
+        "Lawyer":[
+          {
+            "MariaLawyer":[ 
+              {
+              "lawyerType":  ["Hong Kong Solicitor 香港律師", "Pupil 實習大律師"],
+              "admissionJurisdiction": "gj",
+              "admissionYear": "2020",
+              "company": "hkthree",
+              "university": "hdu"
+              }
+            ],
+            "HahahaLawyer":[ 
+              {
+              "lawyerType":  ["Hong Kong Solicitor 香港律師"],
+              "admissionJurisdiction": "efv",
+              "admissionYear": "2021",
+              "company": "hk3",
+              "university": "hsu"
+              }
+            ]
+          }
+        ],
+      "IDA":[
+        {
+          "MariaIDA":[ 
+            {
+              "currentBrands": "aha",
+              "outlets": "24387",
+              "category": "wltf"
+            }
+          ],
+          "HahahaIDA":[ 
+            {
+              "currentBrands": "hahaha",
+              "outlets": "089432",
+              "category": "wwwltf"
+            }
+          ]
         }
-      }
-     ]
+      ]
     }
   ]
 }
