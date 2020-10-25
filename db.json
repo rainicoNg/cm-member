@@ -67,30 +67,91 @@
         ],
         "questionnaireField":[
             {
-                "lawyerType":  ["Hong Kong Solicitor 香港律師", "Pupil 實習大律師"],
-                "admissionJurisdiction": "gj",
-                "admissionYear": "2020",
-                "company": "hkthree",
-                "university": "hdu"
+              "id": 1,
+              "memberId": 1,
+              "fieldKey": "lawyerType",
+              "value": ["Hong Kong Solicitor 香港律師", "Pupil 實習大律師"]
+            },
+            {
+              "id": 2,
+              "memberId": 1,
+              "fieldKey": "admissionJurisdiction",
+              "value":  "gj"
+            },
+            {
+              "id": 3,
+              "memberId": 1,
+              "fieldKey": "admissionYear",
+              "value": "2020"
+            },
+            {
+              "id": 4,
+              "memberId": 1,
+              "fieldKey": "company",
+              "value": "hkthree"
+            },
+            {
+              "id": 5,
+              "memberId": 1,
+              "fieldKey": "university",
+              "value": "hdu"
             }
         ],
         "userDetailField":[
-            {
-                "surname": "Maria",
-                "cnSurname": "maria",
-                "firstName": "Maria",
-                "cnFirstName": "maria",
-                "gender": "Other",
-                "residence": "Hong Kong香港" ,
-                "address": {
-                    "region":"K",
-                    "district":"DEF",
-                    "street":"1",
-                    "building":"A",
-                    "roomFloor":"1"
-                },
-                "weChatId": "hchgtlsr"
+          {
+            "id": 1,
+            "memberId": 1,
+            "fieldKey": "surname",
+            "value": "Maria"
+          },
+          {
+            "id": 2,
+            "memberId": 1,
+            "fieldKey": "cnSurname",
+            "value": "maria"
+          },
+          {
+            "id": 3,
+            "memberId": 1,
+            "fieldKey": "firstName",
+            "value": "Maria"
+          },
+          {
+            "id": 4,
+            "memberId": 1,
+            "fieldKey": "cnFirstName",
+            "value": "maria"
+          },
+          {
+            "id": 5,
+            "memberId": 1,
+            "fieldKey": "gender",
+            "value": "Other"
+          },
+          {
+            "id": 6,
+            "memberId": 1,
+            "fieldKey": "residence",
+            "value": "Hong Kong香港" 
+          },
+          {
+            "id": 7,
+            "memberId": 1,
+            "fieldKey": "address",
+            "value": {
+              "region":"K",
+              "district":"DEF",
+              "street":"1",
+              "building":"A",
+              "roomFloor":"1"
             }
+          },
+          {
+            "id": 8,
+            "memberId": 1,
+            "fieldKey": "weChatId",
+            "value": "hchgtlsr" 
+          }
         ]
       },
       {
@@ -126,28 +187,74 @@
           }
         ],
         "questionnaireField":[
-            {
-                "currentBrands": "hahaha",
-              "outlets": "089432",
-              "category": "wwwltf"
-            }
+          {
+            "id": 6,
+            "memberId": 2,
+            "fieldKey": "currentBrands",
+            "value": "hahaha"
+          },
+          {
+            "id": 7,
+            "memberId": 2,
+            "fieldKey": "outlets",
+            "value":  "089432"
+          },
+          {
+            "id": 8,
+            "memberId": 2,
+            "fieldKey": "category",
+            "value": "wwwltf"
+          }
         ],
         "userDetailField":[
-            {
-                "firstName": "testing2",
-                "lastName": "hahaha2",
-                "company": "tnd",
-                "position": "lung green",
-                "phone": "12345678",
-                "fax": "23456789",
-                "address": {
-                    "region":"H",
-                    "district":"ZYX",
-                    "street":"9",
-                    "building":"Z",
-                    "roomFloor":"9"
-                }
+          {
+            "id": 9,
+            "memberId": 2,
+            "fieldKey": "firstName",
+            "value": "testing2"
+          },
+          {
+            "id": 10,
+            "memberId": 2,
+            "fieldKey": "lastName",
+            "value": "hahaha2"
+          },
+          {
+            "id": 11,
+            "memberId": 2,
+            "fieldKey": "company",
+            "value": "tnd"
+          },
+          {
+            "id": 12,
+            "memberId": 2,
+            "fieldKey": "position",
+            "value": "lung green"
+          },
+          {
+            "id": 13,
+            "memberId": 2,
+            "fieldKey": "phone",
+            "value": "12345678"
+          },
+          {
+            "id": 14,
+            "memberId": 2,
+            "fieldKey": "fax",
+            "value": "23456789"
+          },
+          {
+            "id": 7,
+            "memberId": 1,
+            "fieldKey": "address",
+            "value": {
+              "region":"H",
+              "district":"ZYX",
+              "street":"9",
+              "building":"Z",
+              "roomFloor":"9"
             }
+          }
         ]
       }
     ],
