@@ -1,7 +1,7 @@
 {
     "Association": [
       {
-        "id": 1,
+        "id": 123,
         "name": "YGN1",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
         "description": "Youth Global Network, founded in 2013, is a Hong Kong registered charitable organization with the mission of “Making a Missional Youth Community – Gather, equip and mobilize youth and youth workers to become a missional community with global perspective to deliver acts of justice and mercy with local impact.",
@@ -11,7 +11,7 @@
         "website": "https://www.ygn.org.hk/en/home/"
       },
       {
-        "id": 2,
+        "id": 321,
         "name": "YGN2",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
         "description": "Youth Global Network, founded in 2013, is a Hong Kong registered charitable organization with the mission of “Making a Missional Youth Community – Gather, equip and mobilize youth and youth workers to become a missional community with global perspective to deliver acts of justice and mercy with local impact.",
@@ -24,37 +24,20 @@
     "Member": [
       {
         "id": 1,
-        "firstName": "ada",
-        "lastName": "hmm",
-        "address": "abc",
+        "mobile": "13244321",
         "email": "abc@email.com",
-        "profile": "https://gitlab.com/uploads/-/system/user/avatar/6114290/avatar.png?width=400",
-        "prefix": "a",
-        "gender": "FEMALE",
-        "birthday": "21/20/2020",
-        "about": "i love eating potatos.",
         "password": "noPassword",
-        "contact": 12345678,
         "role": "USER",
         "associationId": 123,
-        "memberBelongedGroup": [
-          {
-            "id": 1,
-            "memberGroup": {
-              "id": 1,
-              "name": "a",
-              "about": "i am a potato"
-            }
-          },
-          {
-            "id": 2,
-            "memberGroup": {
-              "id": 2,
-              "name": "b",
-              "about": "i am b potato"
-            }
-          }
-        ],
+        "refreshToken": "oucnil",
+        "address": 
+        {
+          "region":"K",
+          "district":"DEF",
+          "street":"1",
+          "building":"A",
+          "roomFloor":"1"
+        },
         "questionnaireField":[
             {
               "id": 1,
@@ -146,36 +129,20 @@
       },
       {
         "id": 2,
-        "firstName": "potato",
-        "lastName": "sweet",
+        "mobile":"98767898",
         "email": "def@email.com",
-        "profile": "https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg",
-        "prefix": "b",
-        "gender": "OTHER",
-        "birthday": "1/1/0000",
-        "about": "pls don't eat me.",
         "password": "yesPassword",
-        "contact": 87654321,
         "role": "ADMIN",
         "associationId": 321,
-        "memberBelongedGroup": [
-          {
-            "id": 3,
-            "memberGroup": {
-              "id": 2,
-              "name": "b",
-              "about": "i am b potato"
-            }
-          },
-          {
-            "id": 4,
-            "memberGroup": {
-              "id": 3,
-              "name": "c",
-              "about": "i am c potato"
-            }
-          }
-        ],
+        "refreshToken": "qwerty",
+        "address":
+        {
+          "region":"H",
+          "district":"ZYX",
+          "street":"9",
+          "building":"Z",
+          "roomFloor":"9"
+        },
         "questionnaireField":[
           {
             "id": 6,
