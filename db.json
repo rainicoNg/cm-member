@@ -46,10 +46,10 @@
           "weChatId": {
             "type": "string",
             "title": "WeChat ID"
-          },
-        },
-       ],
-       "IDA":[
+          }
+        }
+      ],
+      "IDA":[
         {
          "firstName": {
             "type": "string",
@@ -78,12 +78,12 @@
           "address": {
              "type": "address",
              "title": "Correspondence address"
-          },
-         },
-        ],
-       },
-     ],
-   "QuestionnaireField":[
+          }
+        }
+      ]
+    }
+  ],
+  "QuestionnaireField":[
     {
       "Lawyer":[ 
         {
@@ -119,9 +119,9 @@
           "type": "string",
           "title": "Name of university (for law student)"
         }
-       }
-      ],
-     "IDA":[
+      }
+    ],
+    "IDA":[
       {
         "currentBrands": {
           "type": "string",
@@ -140,6 +140,7 @@
           "title": "Restaurant Logo’s? Profile Pic?"
         }
       }
-     ],
+     ]
     }
-   ]
+  ]
+}
