@@ -1,128 +1,237 @@
 {
-  "UserDetailField":[
-    {
-      "Lawyer":[
-        {
-          "MariaLawyer":[ 
-            {
-              "surname": "Maria",
-              "cnSurname": "maria",
-              "firstName": "Maria",
-              "cnFirstName": "maria",
-              "gender": "Other",
-              "residence": "Hong Kong香港" ,
-              "address": {
-                "region":"K",
-                "district":"DEF",
-                "street":"1",
-                "building":"A",
-                "roomFloor":"1"
-              },
-              "weChatId": "hchgtlsr"
-            }
-          ],
-          "hahaLawyer":[ 
-            {
-              "surname": "Testing",
-              "cnSurname": "testing",
-              "firstName": "Hahaha",
-              "cnFirstName": "hahaha",
-              "gender": "Other",
-              "residence": "Hong Kong香港" ,
-              "address": {
-                "region":"H",
-                "district":"ABC",
-                "street":"2",
-                "building":"B",
-                "roomFloor":"2"
-              },
-              "weChatId": "yakleui"
-            }
-          ]
-        }
-      ],
-      "IDA" :[
+    "Association": [
+      {
+        "id": 1,
+        "name": "YGN1",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
+        "description": "Youth Global Network, founded in 2013, is a Hong Kong registered charitable organization with the mission of “Making a Missional Youth Community – Gather, equip and mobilize youth and youth workers to become a missional community with global perspective to deliver acts of justice and mercy with local impact.",
+        "regulations": "In accordance with the four discrimination Ordinances (Sex Discrimination Ordinance, Disability Discrimination Ordinance, Family Status Discrimination Ordinance, and Race Discrimination Ordinance) and the handling and prevention of sexual harassment under the Sex Discrimination Ordinance in Hong Kong",
+        "address": "P.O. Box No.6, Ma On Shan Post Office, New Territories, Hong Kong",
+        "contact": "2885 8599",
+        "website": "https://www.ygn.org.hk/en/home/"
+      },
+      {
+        "id": 2,
+        "name": "YGN2",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
+        "description": "Youth Global Network, founded in 2013, is a Hong Kong registered charitable organization with the mission of “Making a Missional Youth Community – Gather, equip and mobilize youth and youth workers to become a missional community with global perspective to deliver acts of justice and mercy with local impact.",
+        "regulations": "In accordance with the four discrimination Ordinances (Sex Discrimination Ordinance, Disability Discrimination Ordinance, Family Status Discrimination Ordinance, and Race Discrimination Ordinance) and the handling and prevention of sexual harassment under the Sex Discrimination Ordinance in Hong Kong",
+        "address": "P.O. Box No.6, Ma On Shan Post Office, New Territories, Hong Kong",
+        "contact": "2885 8599",
+        "website": "https://www.ygn.org.hk/en/home/"
+      },
+      {
+        "id": 3,
+        "name": "YGN3",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
+        "description": "Youth Global Network, founded in 2013, is a Hong Kong registered charitable organization with the mission of “Making a Missional Youth Community – Gather, equip and mobilize youth and youth workers to become a missional community with global perspective to deliver acts of justice and mercy with local impact.",
+        "regulations": "In accordance with the four discrimination Ordinances (Sex Discrimination Ordinance, Disability Discrimination Ordinance, Family Status Discrimination Ordinance, and Race Discrimination Ordinance) and the handling and prevention of sexual harassment under the Sex Discrimination Ordinance in Hong Kong",
+        "address": "P.O. Box No.6, Ma On Shan Post Office, New Territories, Hong Kong",
+        "contact": "2885 8599",
+        "website": "https://www.ygn.org.hk/en/home/"
+      }
+    ],
+    "Member": [
+      {
+        "id": 1,
+        "firstName": "ada",
+        "lastName": "hmm",
+        "address": "abc",
+        "email": "abc@email.com",
+        "profile": "https://gitlab.com/uploads/-/system/user/avatar/6114290/avatar.png?width=400",
+        "prefix": "a",
+        "gender": "FEMALE",
+        "birthday": "21/20/2020",
+        "about": "i love eating potatos.",
+        "password": "noPassword",
+        "contact": 12345678,
+        "role": "USER",
+        "associationId": 123,
+        "memberBelongedGroup": [
           {
-            "mariaIDA":[
-              {
-              "firstName": "maria2",
-                "lastName": "Maria2",
-                "company": "ygn",
-                "position": "another lung green",
-                "phone": "87654321",
-                "fax": "98765432",
+            "id": 1,
+            "memberGroup": {
+              "id": 1,
+              "name": "a",
+              "about": "i am a potato"
+            }
+          },
+          {
+            "id": 2,
+            "memberGroup": {
+              "id": 2,
+              "name": "b",
+              "about": "i am b potato"
+            }
+          }
+        ],
+        "questionnaireField":[
+            {
+                "lawyerType":  ["Hong Kong Solicitor 香港律師", "Pupil 實習大律師"],
+                "admissionJurisdiction": "gj",
+                "admissionYear": "2020",
+                "company": "hkthree",
+                "university": "hdu"
+            }
+        ],
+        "userDetailField":[
+            {
+                "surname": "Maria",
+                "cnSurname": "maria",
+                "firstName": "Maria",
+                "cnFirstName": "maria",
+                "gender": "Other",
+                "residence": "Hong Kong香港" ,
                 "address": {
-                  "region":"K",
-                  "district":"WVU",
-                  "street":"8",
-                  "building":"Y",
-                  "roomFloor":"8"
-                }
-              }
-            ],
-            "hahahaIDA":[
-              {
-              "firstName": "testing2",
+                    "region":"K",
+                    "district":"DEF",
+                    "street":"1",
+                    "building":"A",
+                    "roomFloor":"1"
+                },
+                "weChatId": "hchgtlsr"
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "firstName": "potato",
+        "lastName": "sweet",
+        "email": "def@email.com",
+        "profile": "https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg",
+        "prefix": "b",
+        "gender": "OTHER",
+        "birthday": "1/1/0000",
+        "about": "pls don't eat me.",
+        "password": "yesPassword",
+        "contact": 87654321,
+        "role": "ADMIN",
+        "associationId": 321,
+        "memberBelongedGroup": [
+          {
+            "id": 3,
+            "memberGroup": {
+              "id": 2,
+              "name": "b",
+              "about": "i am b potato"
+            }
+          },
+          {
+            "id": 4,
+            "memberGroup": {
+              "id": 3,
+              "name": "c",
+              "about": "i am c potato"
+            }
+          }
+        ],
+        "questionnaireField":[
+            {
+                "currentBrands": "hahaha",
+              "outlets": "089432",
+              "category": "wwwltf"
+            }
+        ],
+        "userDetailField":[
+            {
+                "firstName": "testing2",
                 "lastName": "hahaha2",
                 "company": "tnd",
                 "position": "lung green",
                 "phone": "12345678",
                 "fax": "23456789",
                 "address": {
-                  "region":"H",
-                  "district":"ZYX",
-                  "street":"9",
-                  "building":"Z",
-                  "roomFloor":"9"
+                    "region":"H",
+                    "district":"ZYX",
+                    "street":"9",
+                    "building":"Z",
+                    "roomFloor":"9"
                 }
-              }
-            ]
+            }
+        ]
+      }
+    ],
+    "MemberGroup": [
+      {
+        "id": 1,
+        "name": "a",
+        "about": "i am a potato",
+        "associationId": 1,
+        "memberBelongedGroup": [
+          {
+            "id": 1,
+            "member": {
+              "id": 1,
+              "firstName": "ada",
+              "lastName": "hmm"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "b",
+        "about": "i am b potato",
+        "associationId": 2,
+        "memberBelongedGroup": [
+          {
+            "id": 2,
+            "member": {
+              "id": 1,
+              "firstName": "ada",
+              "lastName": "hmm"
+            }
+          },
+          {
+            "id": 3,
+            "member": {
+              "id": 2,
+              "firstName": "potato",
+              "lastName": "sweet"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "c",
+        "about": "i am c potato",
+        "associationId": 2,
+        "memberBelongedGroup": [
+          {
+            "id": 4,
+            "member": {
+              "id": 2,
+              "firstName": "potato",
+              "lastName": "sweet"
+            }
           }
         ]
       }
     ],
-    "QuestionnaireField":[
+    "MemberSetting": [
       {
-        "Lawyer":[
-          {
-            "MariaLawyer":[ 
-              {
-              "lawyerType":  ["Hong Kong Solicitor 香港律師", "Pupil 實習大律師"],
-              "admissionJurisdiction": "gj",
-              "admissionYear": "2020",
-              "company": "hkthree",
-              "university": "hdu"
-              }
-            ],
-            "HahahaLawyer":[ 
-              {
-              "lawyerType":  ["Hong Kong Solicitor 香港律師"],
-              "admissionJurisdiction": "efv",
-              "admissionYear": "2021",
-              "company": "hk3",
-              "university": "hsu"
-              }
-            ]
-          }
-        ],
-      "IDA":[
-        {
-          "MariaIDA":[ 
-            {
-              "currentBrands": "aha",
-              "outlets": "24387",
-              "category": "wltf"
-            }
-          ],
-          "HahahaIDA":[ 
-            {
-              "currentBrands": "hahaha",
-              "outlets": "089432",
-              "category": "wwwltf"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+        "id": 1,
+        "associationId": 1,
+        "order": "FIRST_NAME"
+      },
+      {
+        "id": 2,
+        "associationId": 2,
+        "order": "LAST_NAME"
+      },
+      {
+        "id": 3,
+        "associationId": 2,
+        "order": "FIRST_NAME"
+      }
+    ],
+    "Event": [
+      {
+        "id": 1,
+        "name": "Happy Friday",
+        "startDate": "2020-10-23T16:00:00+08:00",
+        "endDate": "2020-10-23T19:00:00+08:00"
+      }
+    ]
+  }

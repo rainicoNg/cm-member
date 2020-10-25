@@ -1,0 +1,128 @@
+{
+  "UserDetailField":[
+    {
+      "Lawyer":[
+        {
+          "MariaLawyer":[ 
+            {
+              "surname": "Maria",
+              "cnSurname": "maria",
+              "firstName": "Maria",
+              "cnFirstName": "maria",
+              "gender": "Other",
+              "residence": "Hong Kong香港" ,
+              "address": {
+                "region":"K",
+                "district":"DEF",
+                "street":"1",
+                "building":"A",
+                "roomFloor":"1"
+              },
+              "weChatId": "hchgtlsr"
+            }
+          ],
+          "hahaLawyer":[ 
+            {
+              "surname": "Testing",
+              "cnSurname": "testing",
+              "firstName": "Hahaha",
+              "cnFirstName": "hahaha",
+              "gender": "Other",
+              "residence": "Hong Kong香港" ,
+              "address": {
+                "region":"H",
+                "district":"ABC",
+                "street":"2",
+                "building":"B",
+                "roomFloor":"2"
+              },
+              "weChatId": "yakleui"
+            }
+          ]
+        }
+      ],
+      "IDA" :[
+          {
+            "mariaIDA":[
+              {
+              "firstName": "maria2",
+                "lastName": "Maria2",
+                "company": "ygn",
+                "position": "another lung green",
+                "phone": "87654321",
+                "fax": "98765432",
+                "address": {
+                  "region":"K",
+                  "district":"WVU",
+                  "street":"8",
+                  "building":"Y",
+                  "roomFloor":"8"
+                }
+              }
+            ],
+            "hahahaIDA":[
+              {
+              "firstName": "testing2",
+                "lastName": "hahaha2",
+                "company": "tnd",
+                "position": "lung green",
+                "phone": "12345678",
+                "fax": "23456789",
+                "address": {
+                  "region":"H",
+                  "district":"ZYX",
+                  "street":"9",
+                  "building":"Z",
+                  "roomFloor":"9"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "QuestionnaireField":[
+      {
+        "Lawyer":[
+          {
+            "MariaLawyer":[ 
+              {
+              "lawyerType":  ["Hong Kong Solicitor 香港律師", "Pupil 實習大律師"],
+              "admissionJurisdiction": "gj",
+              "admissionYear": "2020",
+              "company": "hkthree",
+              "university": "hdu"
+              }
+            ],
+            "HahahaLawyer":[ 
+              {
+              "lawyerType":  ["Hong Kong Solicitor 香港律師"],
+              "admissionJurisdiction": "efv",
+              "admissionYear": "2021",
+              "company": "hk3",
+              "university": "hsu"
+              }
+            ]
+          }
+        ],
+      "IDA":[
+        {
+          "MariaIDA":[ 
+            {
+              "currentBrands": "aha",
+              "outlets": "24387",
+              "category": "wltf"
+            }
+          ],
+          "HahahaIDA":[ 
+            {
+              "currentBrands": "hahaha",
+              "outlets": "089432",
+              "category": "wwwltf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
