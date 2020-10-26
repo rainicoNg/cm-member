@@ -4,9 +4,9 @@
         "id": 123,
         "name": "YGN1",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
-        "description": "Youth Global Network, founded in 2013, is a Hong Kong registered charitable organization with the mission of “Making a Missional Youth Community – Gather, equip and mobilize youth and youth workers to become a missional community with global perspective to deliver acts of justice and mercy with local impact.",
-        "regulations": "In accordance with the four discrimination Ordinances (Sex Discrimination Ordinance, Disability Discrimination Ordinance, Family Status Discrimination Ordinance, and Race Discrimination Ordinance) and the handling and prevention of sexual harassment under the Sex Discrimination Ordinance in Hong Kong",
-        "address": "P.O. Box No.6, Ma On Shan Post Office, New Territories, Hong Kong",
+        "description": "YGN",
+        "regulations": "HK1",
+        "address": "Hong Kong",
         "contact": "2885 8599",
         "website": "https://www.ygn.org.hk/en/home/",
         "QuestionnaireFieldSchema":
@@ -96,9 +96,9 @@
         "id": 321,
         "name": "YGN2",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
-        "description": "Youth Global Network, founded in 2013, is a Hong Kong registered charitable organization with the mission of “Making a Missional Youth Community – Gather, equip and mobilize youth and youth workers to become a missional community with global perspective to deliver acts of justice and mercy with local impact.",
-        "regulations": "In accordance with the four discrimination Ordinances (Sex Discrimination Ordinance, Disability Discrimination Ordinance, Family Status Discrimination Ordinance, and Race Discrimination Ordinance) and the handling and prevention of sexual harassment under the Sex Discrimination Ordinance in Hong Kong",
-        "address": "P.O. Box No.6, Ma On Shan Post Office, New Territories, Hong Kong",
+        "description": "YGN",
+        "regulations": "HK2",
+        "address": "P.O.",
         "contact": "2885 8599",
         "website": "https://www.ygn.org.hk/en/home/",
         "QuestionnaireFieldSchema":
@@ -354,7 +354,7 @@
       {
         "id": 1,
         "name": "a",
-        "about": "i am a potato",
+        "about": "a potato",
         "associationId": 1,
         "memberBelongedGroup": [
           {
@@ -370,7 +370,7 @@
       {
         "id": 2,
         "name": "b",
-        "about": "i am b potato",
+        "about": "b potato",
         "associationId": 2,
         "memberBelongedGroup": [
           {
@@ -383,22 +383,6 @@
           },
           {
             "id": 3,
-            "member": {
-              "id": 2,
-              "firstName": "potato",
-              "lastName": "sweet"
-            }
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "c",
-        "about": "i am c potato",
-        "associationId": 2,
-        "memberBelongedGroup": [
-          {
-            "id": 4,
             "member": {
               "id": 2,
               "firstName": "potato",
