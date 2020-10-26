@@ -2,13 +2,13 @@
     "Association": [
       {
         "id": 123,
-        "name": "YGN1",
+        "name": "Y1",
         "logo": "",
-        "description": "YGN",
+        "description": "Y",
         "regulations": "HK1",
         "address": "HK",
-        "contact": "2885 8599",
-        "website": "https://www.ygn.org.hk/en/home/",
+        "contact": "2",
+        "website": "",
         "QuestionnaireFieldSchema":
           {
             "lawyerType": {
@@ -94,13 +94,13 @@
       },
       {
         "id": 321,
-        "name": "YGN2",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
-        "description": "YGN",
+        "name": "Y2",
+        "logo": "",
+        "description": "Y",
         "regulations": "HK2",
-        "address": "P.O.",
-        "contact": "2885 8599",
-        "website": "https://www.ygn.org.hk/en/home/",
+        "address": "P",
+        "contact": "2",
+        "website": "",
         "QuestionnaireFieldSchema":
         {
           "currentBrands": {
@@ -160,8 +160,8 @@
       {
         "id": 1,
         "mobile": "13244321",
-        "email": "abc@email.com",
-        "password": "noPassword",
+        "email": "a@e.c",
+        "password": "no",
         "role": "USER",
         "associationId": 123,
         "refreshToken": "ouc",
@@ -210,25 +210,25 @@
             "id": 1,
             "memberId": 1,
             "fieldKey": "surname",
-            "value": "Maria"
+            "value": "M"
           },
           {
             "id": 2,
             "memberId": 1,
             "fieldKey": "cnSurname",
-            "value": "maria"
+            "value": "m"
           },
           {
             "id": 3,
             "memberId": 1,
             "fieldKey": "firstName",
-            "value": "Maria"
+            "value": "MM"
           },
           {
             "id": 4,
             "memberId": 1,
             "fieldKey": "cnFirstName",
-            "value": "maria"
+            "value": "mm"
           },
           {
             "id": 5,
@@ -265,8 +265,8 @@
       {
         "id": 2,
         "mobile":"98767898",
-        "email": "def@email.com",
-        "password": "yesPassword",
+        "email": "d@e.c",
+        "password": "y",
         "role": "ADMIN",
         "associationId": 321,
         "refreshToken": "qwerty",
@@ -283,19 +283,19 @@
             "id": 6,
             "memberId": 2,
             "fieldKey": "currentBrands",
-            "value": "hahaha"
+            "value": "ha"
           },
           {
             "id": 7,
             "memberId": 2,
             "fieldKey": "outlets",
-            "value":  "089432"
+            "value":  "9432"
           },
           {
             "id": 8,
             "memberId": 2,
             "fieldKey": "category",
-            "value": "wwwltf"
+            "value": "wltf"
           }
         ],
         "userDetailField":[
@@ -303,13 +303,13 @@
             "id": 9,
             "memberId": 2,
             "fieldKey": "firstName",
-            "value": "testing2"
+            "value": "t2"
           },
           {
             "id": 10,
             "memberId": 2,
             "fieldKey": "lastName",
-            "value": "hahaha2"
+            "value": "ha2"
           },
           {
             "id": 11,
@@ -321,7 +321,7 @@
             "id": 12,
             "memberId": 2,
             "fieldKey": "position",
-            "value": "lung green"
+            "value": "lung"
           },
           {
             "id": 13,
@@ -352,25 +352,9 @@
     ],
     "MemberGroup": [
       {
-        "id": 1,
-        "name": "a",
-        "about": "a potato",
-        "associationId": 1,
-        "memberBelongedGroup": [
-          {
-            "id": 1,
-            "member": {
-              "id": 1,
-              "firstName": "ada",
-              "lastName": "hmm"
-            }
-          }
-        ]
-      },
-      {
         "id": 2,
         "name": "b",
-        "about": "b potato",
+        "about": "b",
         "associationId": 2,
         "memberBelongedGroup": [
           {
@@ -380,14 +364,6 @@
               "firstName": "ada",
               "lastName": "hmm"
             }
-          },
-          {
-            "id": 3,
-            "member": {
-              "id": 2,
-              "firstName": "potato",
-              "lastName": "sweet"
-            }
           }
         ]
       }
@@ -395,12 +371,12 @@
     "MemberSetting": [
       {
         "id": 1,
-        "associationId": 1,
+        "associationId": 123,
         "order": "FIRST_NAME"
       },
       {
         "id": 2,
-        "associationId": 2,
+        "associationId": 321,
         "order": "LAST_NAME"
       }
     ],
