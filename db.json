@@ -82,10 +82,6 @@
                  
               ]
            },
-           "address": {
-              "type": "address",
-              "title": "Correspondence address"
-           },
            "weChatId": {
              "type": "string",
              "title": "WeChat ID"
@@ -145,10 +141,6 @@
            "fax": {
              "type": "string",
              "title": "Fax"
-           },
-           "address": {
-              "type": "address",
-              "title": "Correspondence address"
            },
            "avatar": {
               "type": "avatar"
@@ -243,18 +235,6 @@
             "value": "Hong Kong香港" 
           },
           {
-            "id": 7,
-            "memberId": 1,
-            "fieldKey": "address",
-            "value": {
-              "region":"K",
-              "district":"DEF",
-              "street":"1",
-              "building":"A",
-              "roomFloor":"1"
-            }
-          },
-          {
             "id": 8,
             "memberId": 1,
             "fieldKey": "weChatId",
@@ -334,18 +314,6 @@
             "memberId": 2,
             "fieldKey": "fax",
             "value": "23456789"
-          },
-          {
-            "id": 7,
-            "memberId": 1,
-            "fieldKey": "address",
-            "value": {
-              "region":"H",
-              "district":"ZYX",
-              "street":"9",
-              "building":"Z",
-              "roomFloor":"9"
-            }
           }
         ]
       }
