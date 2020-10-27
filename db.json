@@ -120,11 +120,15 @@
         {
           "firstName": {
              "type": "string",
-             "title": "First Name"
+             "title": "First Name",
+             "isRequired": true,
+             "showOnList": true
            },
            "lastName": {
              "type": "string",
-             "title": "Last Name"
+             "title": "Last Name",
+             "isRequired": true,
+             "showOnList": true
            },
            "company": {
              "type": "string",
@@ -136,11 +140,18 @@
            },
            "phone": {
              "type": "string",
-             "title": "Phone Number"
+             "title": "Phone Number",
+             "isRequired": true,
+             "showOnList": true
            },
            "fax": {
              "type": "string",
              "title": "Fax"
+           },
+           "address": {
+             "type": "address",
+             "title": "Correspondence address",
+             "showOnList": true
            },
            "avatar": {
               "type": "avatar"
