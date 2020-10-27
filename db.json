@@ -168,6 +168,7 @@
         "role": "USER",
         "associationId": 123,
         "refreshToken": "ouc",
+        "avatar": "https://gitlab.com/uploads/-/system/user/avatar/6114290/avatar.png?width=400",
         "address": 
         {
           "region":"K",
@@ -261,6 +262,7 @@
         "role": "ADMIN",
         "associationId": 321,
         "refreshToken": "qwerty",
+        "avatar": "https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg",
         "address":
         {
           "region":"H",
