@@ -100,7 +100,7 @@
             "id": 6,
             "memberId": 1,
             "fieldKey": "residence",
-            "value": "Hong Kong香港" 
+            "value": ["Hong Kong香港"]
           },
           {
             "id": 8,
@@ -188,7 +188,7 @@
             "id": 14,
             "memberId": 2,
             "fieldKey": "residence",
-            "value": "Hong Kong香港" 
+            "value": ["Hong Kong香港"]
           },
           {
             "id": 15,
