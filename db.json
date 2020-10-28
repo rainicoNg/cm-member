@@ -3,160 +3,22 @@
       {
         "id": 123,
         "name": "Y1",
-        "logo": "",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
         "description": "Y",
         "regulations": "HK1",
         "address": "HK",
         "contact": "2",
-        "website": "",
-        "QuestionnaireFieldSchema":
-          {
-            "lawyerType": {
-              "type": "array",
-              "title": "I am a",
-              "maxItems": 1,
-              "items": [
-                  { "title": "Hong Kong Solicitor 香港律師" },
-                  { "title": "Hong Kong Barrister 香港大律師" },
-                  { "title": "Foreign lawyer海外律師" },
-                  { "title": "in-house counsel 內部法律顧問" },
-                  { "title": "Trainee solicitor見習律師" },
-                  { "title": "Pupil 實習大律師" },
-                  { "title": "Paralegal 法律助理" },
-                  { "title": "Law student 法律學生" },
-                  { "title": "Other其他", "hasInput": true }
-              ]
-            },
-            "admissionJurisdiction": {
-              "type": "string",
-              "title": "Jurisdiction of admission (for foreign lawyer)"
-            },
-            "admissionYear": {
-              "type": "string",
-              "title": "Year of admission"
-            },
-            "company": {
-              "type": "string",
-              "title": "Name of firm/chambers/company"
-            },
-            "university": {
-              "type": "string",
-              "title": "Name of university (for law student)"
-            }
-        } ,
-        "UserDetailFieldSchema": 
-        {
-          "surname": {
-             "type": "string",
-             "title": "Surname"
-           },
-           "cnSurname": {
-             "type": "string",
-             "title": "Surname (Chinese)"
-           },
-           "firstName": {
-             "type": "string",
-             "title": "First Name"
-           },
-           "cnFirstName": {
-             "type": "string",
-             "title": "First Name (Chinese)"
-           },
-           "gender": {
-              "type": "enum",
-              "title": "Gender",
-              "items": [
-                 "Female",
-                 "Male",
-                 "Other"
-              ]
-           },
-           "residence": {
-              "type": "array",
-              "title": "I reside in",
-              "maxItems": 1,
-              "items": [
-                 { "title": "Hong Kong香港" },
-                 { "title": "Mainland China中國內地" },
-                 { "title":  "Other其它地方", "hasInput": true }
-                 
-              ]
-           },
-           "weChatId": {
-             "type": "string",
-             "title": "WeChat ID"
-           }
-       }       
+        "website": "https://www.ygn.org.hk/en/home/"      
       },
       {
         "id": 321,
         "name": "Y2",
-        "logo": "",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU",
         "description": "Y",
         "regulations": "HK2",
         "address": "P",
         "contact": "2",
-        "website": "",
-        "QuestionnaireFieldSchema":
-        {
-          "currentBrands": {
-            "type": "string",
-            "title": "Current Brands"
-          },
-          "outlets": {
-            "type": "string",
-            "title": "Number of Outlets"
-          },
-          "category": {
-            "type": "string",
-            "title": "Category"
-          },
-          "image": {
-            "type": "file",
-            "title": "Restaurant Logo’s? Profile Pic?"
-          }
-      },      
-        "UserDetailFieldSchema": 
-        {
-          "firstName": {
-             "type": "string",
-             "title": "First Name",
-             "isRequired": true,
-             "showOnList": true
-           },
-           "lastName": {
-             "type": "string",
-             "title": "Last Name",
-             "isRequired": true,
-             "showOnList": true
-           },
-           "company": {
-             "type": "string",
-             "title": "Company"
-           },
-           "position": {
-             "type": "string",
-             "title": "Position"
-           },
-           "phone": {
-             "type": "string",
-             "title": "Phone Number",
-             "isRequired": true,
-             "showOnList": true
-           },
-           "fax": {
-             "type": "string",
-             "title": "Fax"
-           },
-           "address": {
-             "type": "address",
-             "title": "Correspondence address",
-             "showOnList": true
-           },
-           "avatar": {
-              "type": "avatar"
-           }
-       }
+        "website": "https://www.ygn.org.hk/en/home/"
       }
     ],
     "Member": [
@@ -178,36 +40,30 @@
           "roomFloor":"1"
         },
         "questionnaireField":[
-            {
-              "id": 1,
-              "memberId": 1,
-              "fieldKey": "lawyerType",
-              "value": ["Hong Kong Solicitor 香港律師", "Pupil 實習大律師"]
-            },
-            {
-              "id": 2,
-              "memberId": 1,
-              "fieldKey": "admissionJurisdiction",
-              "value":  "gj"
-            },
-            {
-              "id": 3,
-              "memberId": 1,
-              "fieldKey": "admissionYear",
-              "value": "2020"
-            },
-            {
-              "id": 4,
-              "memberId": 1,
-              "fieldKey": "company",
-              "value": "hkthree"
-            },
-            {
-              "id": 5,
-              "memberId": 1,
-              "fieldKey": "university",
-              "value": "hdu"
-            }
+          {
+            "id": 0,
+            "memberId": 1,
+            "fieldKey": "currentBrands",
+            "value": "ha"
+          },
+          {
+            "id": 1,
+            "memberId": 1,
+            "fieldKey": "outlets",
+            "value":  "9432"
+          },
+          {
+            "id": 2,
+            "memberId": 1,
+            "fieldKey": "category",
+            "value": "wltf"
+          },
+          {
+            "id": 3,
+            "memberId": 1,
+            "fieldKey": "image",
+            "value": "https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg"
+          }
         ],
         "userDetailField":[
           {
@@ -273,60 +129,72 @@
         },
         "questionnaireField":[
           {
-            "id": 6,
+            "id": 4,
             "memberId": 2,
             "fieldKey": "currentBrands",
             "value": "ha"
           },
           {
-            "id": 7,
+            "id": 5,
             "memberId": 2,
             "fieldKey": "outlets",
             "value":  "9432"
           },
           {
-            "id": 8,
+            "id": 6,
             "memberId": 2,
             "fieldKey": "category",
             "value": "wltf"
+          },
+          {
+            "id": 6,
+            "memberId": 2,
+            "fieldKey": "image",
+            "value": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU"
           }
         ],
         "userDetailField":[
           {
             "id": 9,
             "memberId": 2,
-            "fieldKey": "firstName",
-            "value": "t2"
+            "fieldKey": "surname",
+            "value": "Test"
           },
           {
             "id": 10,
             "memberId": 2,
-            "fieldKey": "lastName",
-            "value": "ha2"
+            "fieldKey": "cnSurname",
+            "value": "test"
           },
           {
             "id": 11,
             "memberId": 2,
-            "fieldKey": "company",
-            "value": "tnd"
+            "fieldKey": "firstName",
+            "value": "Haha"
           },
           {
             "id": 12,
             "memberId": 2,
-            "fieldKey": "position",
-            "value": "lung"
+            "fieldKey": "cnFirstName",
+            "value": "haha"
           },
           {
             "id": 13,
             "memberId": 2,
-            "fieldKey": "phone",
-            "value": "12345678"
+            "fieldKey": "gender",
+            "value": "Other"
           },
           {
             "id": 14,
             "memberId": 2,
-            "fieldKey": "fax",
-            "value": "23456789"
+            "fieldKey": "residence",
+            "value": "Hong Kong香港" 
+          },
+          {
+            "id": 15,
+            "memberId": 2,
+            "fieldKey": "weChatId",
+            "value": "43-8ck0q2" 
           }
         ]
       }
