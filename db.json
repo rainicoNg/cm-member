@@ -39,6 +39,24 @@
           "building":"A",
           "roomFloor":"1"
         },
+        "memberBelongedGroup": [
+          {
+            "id": 1,
+            "memberGroup": {
+              "id": 1,
+              "name": "a",
+              "about": "i am a potato"
+            }
+          },
+          {
+            "id": 2,
+            "memberGroup": {
+              "id": 2,
+              "name": "b",
+              "about": "i am b potato"
+            }
+          }
+        ],
         "questionnaireField":[
           {
             "id": 0,
@@ -127,6 +145,24 @@
           "building":"Z",
           "roomFloor":"9"
         },
+        "memberBelongedGroup": [
+          {
+            "id": 3,
+            "memberGroup": {
+              "id": 2,
+              "name": "b",
+              "about": "i am b potato"
+            }
+          },
+          {
+            "id": 4,
+            "memberGroup": {
+              "id": 3,
+              "name": "c",
+              "about": "i am c potato"
+            }
+          }
+        ],
         "questionnaireField":[
           {
             "id": 4,
