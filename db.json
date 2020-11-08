@@ -265,5 +265,11 @@
         "order": "LAST_NAME"
       }
     ],
-    "Tag":[]
+    "Tag":[
+      {
+        "id": 1,
+        "name": "Aa",
+        "associationId": 123
+      }
+    ]
   }
