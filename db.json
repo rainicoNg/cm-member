@@ -265,13 +265,5 @@
         "order": "LAST_NAME"
       }
     ],
-    "Event": [
-      {
-        "id": 1,
-        "name": "Happy Friday",
-        "startDate": "2020-10-23T16:00:00+08:00",
-        "endDate": "2020-10-23T19:00:00+08:00"
-      }
-    ],
     "Tag":[]
   }
