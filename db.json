@@ -285,51 +285,74 @@
         ]
       }
     ],
-    "MemberSetting": [
+    "Tag": [
       {
         "id": 1,
-        "associationId": 123,
-        "order": "FIRST_NAME"
+        "name": "tag1",
+        "associationId": 123
       },
       {
         "id": 2,
-        "associationId": 321,
-        "order": "LAST_NAME"
-      }
-    ],
-    "Notification":[
-      {
-        "id": 1,
-        "message": "hahafhjkadsjkncjnlacjewlbvei",
-        "sentAt": "2020-10-23T16:00:00+08:00",
-        "associationId": 123,
-        "notificationGroup": {
-          "id": 1,
-          "notificationId": 1,
-          "memberGroupId": [2,3]
-        }
-      },
-      {
-        "id": 2,
-        "message": "ohhhhhhhhhhhh",
-        "sentAt": "Wed Nov 11 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
-        "associationId": 321,
-        "notificationGroup": {
-          "id": 2,
-          "notificationId": 2,
-          "memberGroupId": [5]
-        }
+        "name": "tag2",
+        "associationId": 123
       },
       {
         "id": 3,
-        "message": "hjlacmn",
-        "sentAt": "Wed Nov 11 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
+        "name": "tag3",
+        "associationId": 321
+      }
+    ],
+    "News":[
+      {
+        "id": 1,
+        "title": "t1",
+        "headlines": "sth 1",
+        "content": "aknviowernvev  envfsjnvlzjvs",
+        "video": "",
+        "website": "https://dbdiagram.io/embed/5f79c6853a78976d7b764399",
+        "image": "",
+        "isPinAtTop": true,
+        "publishFrom": "Wed Nov 11 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
+        "publishUntil": "Wed Nov 15 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
+        "associationId": 123,
+        "status": "PUBLISHED",
+        "lastModifiedAt": null,
+        "lastModifiedMemberId": null,
+        "newsTag": [
+          {
+          "id": 1,
+          "newsId": 1,
+          "tagId": 1
+          },
+          {
+            "id": 2,
+            "newsId": 1,
+            "tagId": 2
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "t2",
+        "headlines": "sth 2",
+        "content": "akflawovnznvslripuewp",
+        "video": "",
+        "website": "https://marmelab.com/react-admin/Inputs.html",
+        "image": "https://marmelab.com/react-admin/assets/logo_white.png",
+        "isPinAtTop": true,
+        "publishFrom": "Wed Nov 11 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
+        "publishUntil": "Wed Nov 15 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
         "associationId": 321,
-        "notificationGroup": {
+        "status": "PENDING",
+        "lastModifiedAt": "Wed Nov 11 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
+        "lastModifiedMemberId": 1,
+        "newsTag": [
+          {
           "id": 3,
-          "notificationId": 3,
-          "memberGroupId": []
-        }
+          "newsId": 2,
+          "tagId": 3
+          }
+        ]
       }
     ]
   }
