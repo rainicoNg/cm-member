@@ -329,8 +329,16 @@
             "newsId": 1,
             "tagId": 2
             }
+        ],
+        "newsAvailableGroup":[
+          {
+            "id": 2,
+            "newsId": 1,
+            "memberGroupId": 2
+          }
         ]
       },
+      
       {
         "id": 2,
         "title": "t2",
@@ -340,7 +348,7 @@
         "website": "https://marmelab.com/react-admin/Inputs.html",
         "image": "https://marmelab.com/react-admin/assets/logo_white.png",
         "isPinAtTop": true,
-        "publishFrom": "Wed Nov 11 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
+        "publishFrom": "Wed Nov 15 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
         "publishUntil": "Wed Nov 15 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
         "associationId": 321,
         "status": "PENDING",
@@ -351,6 +359,13 @@
           "id": 3,
           "newsId": 2,
           "tagId": 3
+          }
+        ],
+        "newsAvailableGroup":[
+          {
+            "id": 1,
+            "newsId": 2,
+            "memberGroupId": 5
           }
         ]
       }
