@@ -240,7 +240,7 @@
         "id": 2,
         "name": "b",
         "about": "b",
-        "associationId": 2,
+        "associationId": 123,
         "memberBelongedGroup": [
           {
             "id": 2,
@@ -248,6 +248,38 @@
               "id": 1,
               "firstName": "ada",
               "lastName": "hmm"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "c",
+        "about": "c",
+        "associationId": 123,
+        "memberBelongedGroup": [
+          {
+            "id": 3,
+            "member": {
+              "id": 1,
+              "firstName": "ada",
+              "lastName": "hmm"
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "tnd",
+        "about": "tnd",
+        "associationId": 321,
+        "memberBelongedGroup": [
+          {
+            "id": 2,
+            "member": {
+              "id": 1,
+              "firstName": "bda",
+              "lastName": "aha"
             }
           }
         ]
@@ -265,11 +297,28 @@
         "order": "LAST_NAME"
       }
     ],
-    "Tag":[
+    "Notification":[
       {
         "id": 1,
-        "name": "Aa",
-        "associationId": 123
+        "message": "hahafhjkadsjkncjnlacjewlbvei",
+        "sentAt": "2020-10-23T16:00:00+08:00",
+        "associationId": 123,
+        "notificationGroup": {
+          "id": 1,
+          "notificationId": 1,
+          "memberGroupId": [2,3]
+        }
+      },
+      {
+        "id": 2,
+        "message": "ohhhhhhhhhhhh",
+        "sentAt": "2020-11-10T16:00:00+08:00",
+        "associationId": 321,
+        "notificationGroup": {
+          "id": 2,
+          "notificationId": 2,
+          "memberGroupId": [5]
+        }
       }
     ]
   }
