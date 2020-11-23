@@ -8,7 +8,72 @@
         "regulations": "HK1",
         "address": "HK",
         "contact": "2",
-        "website": "https://www.ygn.org.hk/en/home/"      
+        "website": "https://www.ygn.org.hk/en/home/",
+        "userDetailFieldSchema": [
+          {
+            "schema": {
+              "firstName": {
+                "id": 1,
+                "type": "string",
+                "title": {
+                  "en": "First Name",
+                  "zhHans": "名字",
+                  "zhHant": "名字"
+                },
+                "isRequired": true,
+                "searchable": true
+              },
+              "lastName": {
+                "id": 2,
+                "type": "string",
+                "title": {
+                  "en": "Last Name",
+                  "zhHans": "姓氏",
+                  "zhHant": "姓氏"
+                },
+                "isRequired": true,
+                "searchable": true
+              },
+              "company": {
+                "id": 3,
+                "type": "string",
+                "title": {
+                  "en": "Company",
+                  "zhHans": "公司",
+                  "zhHant": "公司"
+                }
+              },
+              "position": {
+                "id": 4,
+                "type": "string",
+                "title": {
+                  "en": "Position",
+                  "zhHant": "職位",
+                  "zhHans": "职位"
+                }
+              },
+              "fax": {
+                "id": 6,
+                "type": "string",
+                "title": {
+                  "en": "Fax",
+                  "zhHant": "傳真",
+                  "zhHans": "传真"
+                }
+              },
+              "address": {
+                "id": 7,
+                "type": "address",
+                "title": {
+                  "en": "Correspondence address",
+                  "zhHant": "通訊地址",
+                  "zhHans": "通讯地址"
+                },
+                "searchable": true
+              }
+            }
+          }
+        ]
       },
       {
         "id": 321,
@@ -18,7 +83,107 @@
         "regulations": "HK2",
         "address": "P",
         "contact": "2",
-        "website": "https://www.ygn.org.hk/en/home/"
+        "website": "https://www.ygn.org.hk/en/home/",
+        "userDetailFieldSchema":[
+          {
+            "schema": {
+              "surname": {
+                "id": 1,
+                "type": "string",
+                "title": {
+                  "en": "Surname",
+                  "zhHans": "姓氏",
+                  "zhHant": "姓氏"
+                },
+                "searchable": true
+              },
+              "cnSurname": {
+                "id": 2,
+                "type": "string",
+                "title": {
+                  "en": "Surname (Chinese)",
+                  "zhHans": "中文姓氏",
+                  "zhHant": "中文姓氏"
+                },
+                "searchable": true
+              },
+              "firstName": {
+                "id": 3,
+                "type": "string",
+                "title": {
+                  "en": "First Name",
+                  "zhHans": "名字",
+                  "zhHant": "名字"
+                },
+                "searchable": true
+              },
+              "cnFirstName": {
+                "id": 4,
+                "type": "string",
+                "title": {
+                  "en": "First Name (Chinese)",
+                  "zhHans": "中文名字",
+                  "zhHant": "中文名字"
+                },
+                "searchable": true
+              },
+              "gender": {
+                "id": 5,
+                "type": "enum",
+                "title": {
+                  "en": "Gender",
+                  "zhHans": "性別",
+                  "zhHant": "性別"
+                },
+                "items": [
+                  { "id": "Female", "title": { "en": "Female", "zhHans": "女性", "zhHant": "女性" } },
+                  { "id": "Male", "title": { "en": "Male", "zhHans": "男性", "zhHant": "男性" } },
+                  { "id": "Other", "title": { "en": "Other", "zhHans": "其他", "zhHant": "其他" } }
+                ],
+                "searchable": true
+              },
+              "residence": {
+                "id": 6,
+                "type": "array",
+                "title": {
+                  "en": "I reside in",
+                  "zhHans": "我住在",
+                  "zhHant": "我住在"
+                },
+                "maxItems": 1,
+                "items": [
+                  { "id": "1", "title": { "en": "Hong Kong", "zhHans": "香港", "zhHant": "香港" } },
+                  { "id": "2", "title": { "en": "Mainland China", "zhHans": "中国内地", "zhHant": "中國內地" } },
+                  { "id": "3", "title": { "en": "Other", "zhHans": "其它地方", "zhHant": "其它地方" }, "hasInput": true }
+                ],
+                "searchable": true
+              },
+              "weChatId": {
+                "id": 7,
+                "type": "string",
+                "title": {
+                  "en": "WeChat ID",
+                  "zhHans": "微信ID",
+                  "zhHant": "微信ID"
+                }
+              }
+            }
+          },
+          {
+            "schema": {
+              "address": {
+                "id": 8,
+                "type": "address",
+                "title": {
+                  "en": "Correspondence address",
+                  "zhHant": "通訊地址",
+                  "zhHans": "通讯地址"
+                },
+                "searchable": true
+              }
+            }
+          }
+        ]        
       }
     ],
     "Member": [
@@ -127,131 +292,9 @@
             "value": "hchgtlsr" 
           }
         ]
-      },
-      {
-        "id": 2,
-        "mobile":"98767898",
-        "email": "d@e.c",
-        "password": "y",
-        "role": "ADMIN",
-        "associationId": 321,
-        "refreshToken": "qwerty",
-        "avatar": "https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg",
-        "address":
-        {
-          "region":"H",
-          "district":"ZYX",
-          "street":"9",
-          "building":"Z",
-          "roomFloor":"9"
-        },
-        "memberBelongedGroup": [
-          {
-            "id": 3,
-            "memberGroup": {
-              "id": 2,
-              "name": "b",
-              "about": "i am b potato"
-            }
-          },
-          {
-            "id": 4,
-            "memberGroup": {
-              "id": 3,
-              "name": "c",
-              "about": "i am c potato"
-            }
-          }
-        ],
-        "questionnaireField":[
-          {
-            "id": 4,
-            "memberId": 2,
-            "fieldKey": "currentBrands",
-            "value": "ha"
-          },
-          {
-            "id": 5,
-            "memberId": 2,
-            "fieldKey": "outlets",
-            "value":  "9432"
-          },
-          {
-            "id": 6,
-            "memberId": 2,
-            "fieldKey": "category",
-            "value": "wltf"
-          },
-          {
-            "id": 6,
-            "memberId": 2,
-            "fieldKey": "image",
-            "value": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRrwZkZpmA47z1GPH7QmtkKLWLYhg2YdPrQ&usqp=CAU"
-          }
-        ],
-        "userDetailField":[
-          {
-            "id": 9,
-            "memberId": 2,
-            "fieldKey": "surname",
-            "value": "Test"
-          },
-          {
-            "id": 10,
-            "memberId": 2,
-            "fieldKey": "cnSurname",
-            "value": "test"
-          },
-          {
-            "id": 11,
-            "memberId": 2,
-            "fieldKey": "firstName",
-            "value": "Haha"
-          },
-          {
-            "id": 12,
-            "memberId": 2,
-            "fieldKey": "cnFirstName",
-            "value": "haha"
-          },
-          {
-            "id": 13,
-            "memberId": 2,
-            "fieldKey": "gender",
-            "value": "Other"
-          },
-          {
-            "id": 14,
-            "memberId": 2,
-            "fieldKey": "residence",
-            "value": []
-          },
-          {
-            "id": 15,
-            "memberId": 2,
-            "fieldKey": "weChatId",
-            "value": "43-8ck0q2" 
-          }
-        ]
       }
     ],
     "MemberGroup": [
-      {
-        "id": 2,
-        "name": "b",
-        "about": "b",
-        "associationId": 123,
-        "memberBelongedGroup": [
-          {
-            "id": 2,
-            "member": {
-              "id": 1,
-              "firstName": "ada",
-              "lastName": "hmm"
-            }
-          }
-        ]
-      },
       {
         "id": 3,
         "name": "c",
@@ -267,22 +310,6 @@
             }
           }
         ]
-      },
-      {
-        "id": 5,
-        "name": "tnd",
-        "about": "tnd",
-        "associationId": 321,
-        "memberBelongedGroup": [
-          {
-            "id": 2,
-            "member": {
-              "id": 1,
-              "firstName": "bda",
-              "lastName": "aha"
-            }
-          }
-        ]
       }
     ],
     "Tag": [
@@ -290,16 +317,6 @@
         "id": 1,
         "name": "tag1",
         "associationId": 123
-      },
-      {
-        "id": 2,
-        "name": "tag2",
-        "associationId": 123
-      },
-      {
-        "id": 3,
-        "name": "tag3",
-        "associationId": 321
       }
     ],
     "News":[
@@ -323,49 +340,13 @@
           "id": 1,
           "newsId": 1,
           "tagId": 1
-          },
-          {
-            "id": 2,
-            "newsId": 1,
-            "tagId": 2
-            }
+          }
         ],
         "newsAvailableGroup":[
           {
             "id": 2,
             "newsId": 1,
             "memberGroupId": 2
-          }
-        ]
-      },
-      
-      {
-        "id": 2,
-        "title": "t2",
-        "headlines": "sth 2",
-        "content": "akflawovnznvslripuewp",
-        "video": "",
-        "website": "https://marmelab.com/react-admin/Inputs.html",
-        "image": "https://marmelab.com/react-admin/assets/logo_white.png",
-        "isPinAtTop": true,
-        "publishFrom": "Wed Nov 15 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
-        "publishUntil": "Wed Nov 15 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
-        "associationId": 321,
-        "status": "PENDING",
-        "lastModifiedAt": "Wed Nov 11 2020 15:12:00 GMT+0800 (Hong Kong Standard Time)",
-        "lastModifiedMemberId": 1,
-        "newsTag": [
-          {
-          "id": 3,
-          "newsId": 2,
-          "tagId": 3
-          }
-        ],
-        "newsAvailableGroup":[
-          {
-            "id": 1,
-            "newsId": 2,
-            "memberGroupId": 5
           }
         ]
       }
